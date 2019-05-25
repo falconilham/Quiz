@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "tipe_soal": "text",
+    "Soal": "Ricky is … in the sea. He takes some baits.",
+    "jawaban": ["fishing","sailing","surfing","swimming"],
+    "jawaban_benar": "fishing"
+  },
+  {
+    "id": 2,
+    "tipe_soal": "text",
+    "Soal": "What is the third month of the year?",
+    "jawaban": ["January","February","April","March"],
+    "jawaban_benar": "March"
+  },
+  {
+    "id": 3,
+    "tipe_soal": "text",
+    "Soal": "Twenty four divided by eight equals to …",
+    "jawaban": ["two","three","four","five"],
+    "jawaban_benar": "three"
+  },
+  {
+    "id": 4,
+    "tipe_soal": "text",
+    "Soal": "I see a … at the zoo",
+    "jawaban": ["Clock","Elephant","Table","Roasters"],
+    "jawaban_benar": "Elephant"
+  },
+  {
+    "id": 5,
+    "tipe_soal": "text",
+    "Soal": "We take a nap in the …",
+    "jawaban": ["bedroom","classroom","bathroom","kitchen"],
+    "jawaban_benar": "bedroom"
+  },
+  {
+    "id": 6,
+    "tipe_soal": "text",
+    "Soal": "Mr. Brown is my uncle. He is my father’s …",
+    "jawaban": ["son","brother","sister","nephew"],
+    "jawaban_benar": "brother"
+  },
+  {
+    "id": 7,
+    "tipe_soal": "text",
+    "Soal": "My mother is … she is at home all day.",
+    "jawaban": ["teacher","secretary","house wife","nurse"],
+    "jawaban_benar": "house wife"
+  },
+  {
+    "id": 8,
+    "tipe_soal": "text",
+    "Soal": "It … two long arms.",
+    "jawaban": ["have","has","do","is"],
+    "jawaban_benar": "has"
+  },
+  {
+    "id": 9,
+    "tipe_soal": "text",
+    "Soal": "Where do you keep your clothes? In the ….",
+    "jawaban": ["desk","shelf","case","wardrobe"],
+    "jawaban_benar": "wardrobe"
+  },
+  {
+    "id": 10,
+    "tipe_soal": "text",
+    "Soal": "My name ... Royhan",
+    "jawaban": ["am","is","are","aren't"],
+    "jawaban_benar": "is"
+  },
+  {
+    "id": 11,
+    "tipe_soal": "text",
+    "Soal": "He ...long hair.",
+    "jawaban": ["have","has","cut","take"],
+    "jawaban_benar": "has"
+  },
+  {
+    "id": 12,
+    "tipe_soal": "text",
+    "Soal": "How many eyes do you have?",
+    "jawaban": ["one","five","ten","two"],
+    "jawaban_benar": "two"
+  },
+  {
+    "id": 13,
+    "tipe_soal": "text",
+    "Soal": "The day after Friday is ...",
+    "jawaban": ["Wednesday","Thursday","Monday","Saturday"],
+    "jawaban_benar": "Saturday"
+  },
+  {
+    "id": 14,
+    "tipe_soal": "text",
+    "Soal": "Every cow has ... tail",
+    "jawaban": ["a","Three","two","Four"],
+    "jawaban_benar": "a"
+  },
+  {
+    "id": 15,
+    "tipe_soal": "text",
+    "Soal": "Every cow has ... tail",
+    "jawaban": ["a","Three","two","Four"],
+    "jawaban_benar": "a"
+  },
+  {
+    "id": 16,
+    "tipe_soal": "text",
+    "Soal": "The ... are studying in the class now.",
+    "jawaban": ["pupil","study","students","student"],
+    "jawaban_benar": "students"
+  },
+  {
+    "id": 17,
+    "tipe_soal": "text",
+    "Soal": "Tina and Tono have a new bicycle. This is ... bicycle.",
+    "jawaban": ["My","our","her","their"],
+    "jawaban_benar": "our"
+  },
+  {
+    "id": 18,
+    "tipe_soal": "text",
+    "Soal": "I plan rice and dig my farm. I am a . . .",
+    "jawaban": ["police","engineer","doctor","farmer"],
+    "jawaban_benar": "farmer"
+  },
+  {
+    "id": 19,
+    "tipe_soal": "text",
+    "Soal": "The teacher is sitting on the ...",
+    "jawaban": ["Table","Chair","Book","Cupboard"],
+    "jawaban_benar": "Chair"
+  },
+  {
+    "id": 20,
+    "tipe_soal": "text",
+    "Soal": "I will go to bed, ...",
+    "jawaban": ["Good night","Good sleep","Good morning","Good bye"],
+    "jawaban_benar": "Good night"
+  },
+  {
+    "id": 21,
+    "tipe_soal": "text",
+    "Soal": "Teacher clean the blackboard by ...",
+    "jawaban": ["an eraser","a ruler","a book","a chalk"],
+    "jawaban_benar": "an eraser"
+  },
+  {
+    "id": 22,
+    "tipe_soal": "text",
+    "Soal": "I will to taking a bath, I need ...",
+    "jawaban": ["Fork","Towel","cup","bowl"],
+    "jawaban_benar": "Towel"
+  },
+  {
+    "id": 23,
+    "tipe_soal": "text",
+    "Soal": "Soap is in the ...",
+    "jawaban": ["bedroom","kitchen","bathroom","backyard"],
+    "jawaban_benar": "bathroom"
+  },
+  {
+    "id": 24,
+    "tipe_soal": "text",
+    "Soal": "Ten, eleven , ..., thirteen.",
+    "jawaban": ["twenty","fourteen","twelve","tweety"],
+    "jawaban_benar": "twelve"
+  },
+  {
+    "id": 25,
+    "tipe_soal": "text",
+    "Soal": "we speak with our ...",
+    "jawaban": ["hand","mouth","head","arm"],
+    "jawaban_benar": "mouth"
+  },
+  {
+    "id": 26,
+    "tipe_soal": "text",
+    "Soal": "... do you live?",
+    "jawaban": ["what","how","where","when"],
+    "jawaban_benar": "where"
+  },
+  {
+    "id": 27,
+    "tipe_soal": "text",
+    "Soal": "I ... living in jakarta.",
+    "jawaban": ["am","is","are","has"],
+    "jawaban_benar": "am"
+  },
+  {
+    "id": 28,
+    "tipe_soal": "text",
+    "Soal": "We usually have breakfast (sarapan) in the . . . .",
+    "jawaban": ["morning","afternoon","evening","night"],
+    "jawaban_benar": "morning"
+  },
+  {
+    "id": 29,
+    "tipe_soal": "text",
+    "Soal": "Nice to . . . you",
+    "jawaban": ["mad","meet","mid","mit"],
+    "jawaban_benar": "meet"
+  },
+  {
+    "id": 30,
+    "tipe_soal": "text",
+    "Soal": "The students always bring their . . . to write",
+    "jawaban": ["ruler","eraser","chair","pen"],
+    "jawaban_benar": "pen"
+  },
+  {
+    "id": 31,
+    "tipe_soal": "text",
+    "Soal": "The class is dirty. Can you . . . floor?",
+    "jawaban": ["sweep","empty","change","wash"],
+    "jawaban_benar": "sweep"
+  },
+  {
+    "id": 32,
+    "tipe_soal": "text",
+    "Soal": "Don’t . . . at the class, please!",
+    "jawaban": ["open","eat","clean","put"],
+    "jawaban_benar": "eat"
+  },
+  {
+    "id": 33,
+    "tipe_soal": "text",
+    "Soal": "Don’t . . . at the class, please!",
+    "jawaban": ["open","eat","clean","put"],
+    "jawaban_benar": "eat"
+  }
+]
