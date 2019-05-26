@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Text, TextInput, Button, Picker} from 'react-native';
-import * as Soal from './Soal.json';
+import Soal from './Soal.json';
 
 const soal_test = Soal
 const soal = 0
@@ -10,32 +10,27 @@ export default class Home extends Component {
     this.state = { 
       name: '',
       condition: 1,
-      soal: soal_test,
+      soal: Soal,
       soal_i: 0,
       nomor_soal: 1,
-      soal_dipakai: soal_test[0],
+      soal_dipakai: Soal[Math.floor(Math.random()*Soal.length)],
+      total_soal_dikerjakan: 0,
       nilai: 0,
       jawaban: "",
     }
   }
 
-  getData(){
-    return fetch(Soal)
-    .then((response) => response.json())
-    .then((res) => {  
-      alert(res);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  //gantisoal
+  changeSoal = () =>{
+  }
+  componentDidMount(){
+    //this.getData();
   }
 
-  componentDidMount(){
-      //this.getData();
-  }
+  //Cek User
   cekUser = () =>{
     if (this.state.name === ""){
-      alert("user Tidak Boleh Kosong");
+      alert("Username Tidak Boleh Kosong");
       this.setState({
         condition : 1
       })
@@ -45,30 +40,34 @@ export default class Home extends Component {
       })
     }
   }
+  //cek nilai
   cekNilai = (e, i,item) => {
-    if(item === this.state.soal_dipakai.jawaban_benar){
-      this.setState({
-        nilai: this.state.nilai + 1 * 10,
-        soal_i : this.state.soal_i + 1,
-        nomor_soal : this.state.nomor_soal + 1 
-      })
+    if(this.state.total_soal_dikerjakan === 20){
+      alert("total nilai anda "+this.state.nilai)
     }else{
+      if(item === this.state.soal_dipakai.jawaban_benar){
+        this.setState({
+          nilai: this.state.nilai + 1 * 10 / 2,
+          nomor_soal : this.state.nomor_soal + 1,
+        })
+      }else{
+        this.setState({
+          nilai : this.state.nilai + 0 * 10 / 2,
+          nomor_soal : this.state.nomor_soal + 1
+        })
+      }
       this.setState({
-        nilai : this.state.nilai + 0 * 10,
-        soal_i : this.state.soal_i + 1,
-        nomor_soal : this.state.nomor_soal + 1
+        soal_dipakai: this.state.soal[Math.floor(Math.random()*Soal.length)],
+        total_soal_dikerjakan : this.state.total_soal_dikerjakan + 1 
       })
     }
-    this.setState({
-      soal_dipakai: soal_test[this.state.soal_i + 1]
-    })
   }
 
   render() {
     {if (this.state.condition === 1){ 
       return (
       <View style={styles.container}>
-        <Text style={styles.font_login}>Masukan Nama </Text>
+        <Text style={styles.font_login}>Masukan Nama{this.state.soal.length}</Text>
         <TextInput style={styles.login_name} onChangeText={(name) => this.setState({name})} placeholder="Input Nama Anda" />
         <Button color="#a3a2f1" title="login" type="clear" onPress={() => this.cekUser()} />
       </View>
@@ -89,6 +88,7 @@ export default class Home extends Component {
           <View style={{fontSize: 50, justifyContent: 'center', alignItems: "center"}}>
             <Text>Nilai Anda</Text>
             <Text>{this.state.nilai}</Text>
+            <Text>{this.state.total_soal_dikerjakan}</Text>
           </View>
       </View>
       )}
