@@ -72,7 +72,7 @@
   {
     "id": 11,
     "tipe_soal": "text",
-    "Soal": "He ...long hair.",
+    "Soal": "He ... a long hair.",
     "jawaban": ["have","has","cut","take"],
     "jawaban_benar": "has"
   },
@@ -100,9 +100,9 @@
   {
     "id": 15,
     "tipe_soal": "text",
-    "Soal": "Every cow has ... tail",
-    "jawaban": ["a","Three","two","Four"],
-    "jawaban_benar": "a"
+    "Soal": "We use tongue for ...",
+    "jawaban": ["Tasting","Chewing","Thingking","Walking"],
+    "jawaban_benar": "Tasting"
   },
   {
     "id": 16,
@@ -229,5 +229,118 @@
     "Soal": "Don’t . . . at the class, please!",
     "jawaban": ["open","eat","clean","put"],
     "jawaban_benar": "eat"
-  }
+  },
+  {
+    "id": 34,
+    "tipe_soal": "text",
+    "Soal": "Mom, this is Mutiara. … my friend.",
+    "jawaban": ["He","She","We","They"],
+    "jawaban_benar": "She"
+  },
+  {
+    "id": 35,
+    "tipe_soal": "text",
+    "Soal": "Sixty three means ……",
+    "jawaban": ["71","83","63","73"],
+    "jawaban_benar": "63"
+  },
+  {
+    "id": 36,
+    "tipe_soal": "text",
+    "Soal": " We have ten …",
+    "jawaban": ["Hands","Fingers","Eyes","Legs"],
+    "jawaban_benar": "Fingers"
+  },
+  {
+    "id": 37,
+    "tipe_soal": "text",
+    "Soal": " What is Wajah in English?",
+    "jawaban": ["Arm","Elbow","Face","Ankle"],
+    "jawaban_benar": "Face"
+  },
+  {
+    "id": 38,
+    "tipe_soal": "text",
+    "Soal": " I wear … to school.",
+    "jawaban": ["Uniform","Pajamas","T-shirt","Shirt"],
+    "jawaban_benar": "Uniform"
+  },
+  {
+    "id": 39,
+    "tipe_soal": "text",
+    "Soal": " It is rainy. you need…",
+    "jawaban": ["Bottle","Umbrella","Bag","Book"],
+    "jawaban_benar": "Umbrella"
+  },
+  {
+    "id": 40,
+    "tipe_soal": "text",
+    "Soal": " cabbage, broccoli, bean are kinds of ….",
+    "jawaban": ["Fruits","Animals","Vegetables","Drinks"],
+    "jawaban_benar": "Vegetables"
+  },
+  {
+    "id": 41,
+    "tipe_soal": "text",
+    "Soal": " These are the rooms in a house, except …",
+    "jawaban": ["Living room","Kitchen","Class","Garage"],
+    "jawaban_benar": "Class"
+  },
+  {
+    "id": 42,
+    "tipe_soal": "text",
+    "Soal": " This is my friend. . . . . name is Anto.",
+    "jawaban": ["She","Her","His","He"],
+    "jawaban_benar": "His"
+
+  },
+  {
+    "id": 43,
+    "tipe_soal": "text",
+    "Soal": " My family and I will move to Jakarta. ....fawill go next week.",
+    "jawaban": ["They","Our","We","Us"],
+    "jawaban_benar": "We"
+  },
+  {
+    "id": 44,
+    "tipe_soal": "text",
+    "Soal": " Dada, lengan, siku. In English are . . ",
+    "jawaban": ["Chest, hand, knee","Chest, hand, elbow","Chest, arm, elbow","Shoulder, arm, knee"],
+    "jawaban_benar": "Chest, arm, elbow"
+  },
+  {
+    "id": 45,
+    "tipe_soal": "text",
+    "Soal": " They . . . playing football now.",
+    "jawaban": ["Is","Are","Am","Were"],
+    "jawaban_benar": "Are"
+  },
+  {
+    "id": 46,
+    "tipe_soal": "text",
+    "Soal": " Joko has two younger. . . and an older brother.",
+    "jawaban": ["Sister","Sisters","Brother","Friend"],
+    "jawaban_benar": "Sisters"
+  },
+  {
+    "id": 47,
+    "tipe_soal": "text",
+    "Soal": " My father give me . . . apple.",
+    "jawaban": ["The","An","It’s","A"],
+    "jawaban_benar": "An"
+  },
+  {
+    "id": 48,
+    "tipe_soal": "text",
+    "Soal": "  I have ... fingers",
+    "jawaban": ["Ten","Nine","Five","Seven"],
+    "jawaban_benar": "Ten"
+  },
+  {
+    "id": 50,
+    "tipe_soal": "text",
+    "Soal": "  Is this your book ?",
+    "jawaban": ["No, it is","Yes, it is","Yes, I am","Yes, it is not"],
+    "jawaban_benar": "Yes, it is"
+  },
 ]
